@@ -1,0 +1,42 @@
+{
+  "globalId": "2016408",
+  "firstName": "Prepaid",
+  "lastName": "User",
+  "preferredLanguage": "fr",
+  "profiles": [
+    "PBIV9999"
+  ],
+  "oneCDB": false,
+  "_embedded": {
+    "cm:mcs-default-customer": {
+      "mcsSubsegment": "PRE",
+      "payer": false,
+      "contactNumber": "0478140422",
+      "myBusinessComponent": false,
+      "subscriptionType": "prepaid",
+      "hasPNIPostpaid": false,
+      "customerAccountNumber": "26649728",
+      "_links": {
+        "self": {
+          "href": "http://jboss1016.bc:22041/customer-management/serviceProvider/mcs/customer/26649728"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "http://jboss1016.bc:22041/customer-management/user"
+    },
+    "cm:emails": {
+      "href": "http://jboss1016.bc:22041/customer-management/customer/{customerId}/contactinfo/emails?context={context}",
+      "templated": true
+    },
+    "curies": [
+      {
+        "href": "/customer-management/generated-docs/api-guide.html#resources-{rel}",
+        "name": "cm",
+        "templated": true
+      }
+    ]
+  }
+}

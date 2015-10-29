@@ -1,0 +1,44 @@
+{
+  "globalId": "12345",
+  "firstName": "Fls",
+  "lastName": "COR 31",
+  "preferredLanguage": "en",
+  "profiles": [
+    "GHBS_NOC",
+    "LANNL",
+    "PBIV1020",
+    "PECA0007",
+    "PEPC5001",
+    "PERM5001",
+    "PESD5001"
+  ],
+  "oneCDB": false,
+  "_embedded": {
+    "cm:fls-default-customer": {
+      "customerId": 12156344,
+      "name": "G.C.V. LOGIBEL - BELGISCHE LOG",
+      "subsegment": "31",
+      "payer": true,
+      "_links": {
+        "self": {
+          "href": "http://localhost:8080/serviceProvider/fls/customer/12156344"
+        },
+        "cm:group": {
+          "href": "/rest/customer-management/customer-group-fls/124"
+        },
+        "curies": [
+          {
+            "href": "/generated-docs/api-guide.html#resources-{rel}",
+            "name": "px",
+            "templated": true
+          }
+        ]
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/user/12345"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "msisdn": "32478140422",
+  "lastReloadAmount": 10,
+  "lastReloadDate": 1444082400000,
+  "reloadHistory": [
+    {
+      "period": "2014-12-01",
+      "reloadAmount": 10.0,
+      "reloadNumber": 1
+    },
+    {
+      "period": "2015-01-01",
+      "reloadAmount": 20.0,
+      "reloadNumber": 2
+    },
+    {
+      "period": "2015-02-01",
+      "reloadAmount": 30.0,
+      "reloadNumber": 3
+    },
+    {
+      "period": "2015-03-01",
+      "reloadAmount": 20.0,
+      "reloadNumber": 2
+    },
+    {
+      "period": "2015-04-01",
+      "reloadAmount": 10.0,
+      "reloadNumber": 1
+    },
+    {
+      "period": "2015-05-01",
+      "reloadAmount": 20.0,
+      "reloadNumber": 2
+    },
+    {
+      "period": "2015-06-01",
+      "reloadAmount": 30.0,
+      "reloadNumber": 3
+    },
+    {
+      "period": "2015-07-01",
+      "reloadAmount": 20.0,
+      "reloadNumber": 2
+    },
+    {
+      "period": "2015-08-01",
+      "reloadAmount": 10.0,
+      "reloadNumber": 1
+    },
+    {
+      "period": "2015-09-01",
+      "reloadAmount": 20.0,
+      "reloadNumber": 2
+    },
+    {
+      "period": "2015-10-01",
+      "reloadAmount": 30.0,
+      "reloadNumber": 3
+    }
+  ],
+  "callHistory": [
+    {
+      "period": "2015-10-21T11:29:21",
+      "record": "Reload",
+      "recordDetail": "Reloads",
+      "amount": 100,
+      "remainingAmount": 1000
+    },
+    {
+      "period": "2015-10-21T11:29:21",
+      "record": "Call emitted",
+      "recordDetail": "1973",
+      "duration": 10,
+      "unitOfDuration": "sec",
+      "amount": -10.5,
+      "remainingAmount": 975
+    },
+    {
+      "period": "2015-10-21T11:29:21",
+      "record": "Call emitted",
+      "recordDetail": "1973",
+      "duration": 70,
+      "unitOfDuration": "sec",
+      "amount": -10.5,
+      "remainingAmount": 975
+    },
+    {
+      "period": "2015-10-22T11:29:21",
+      "record": "Call emitted",
+      "recordDetail": "1973",
+      "duration": 3666,
+      "unitOfDuration": "sec",
+      "amount": -10.5,
+      "remainingAmount": 975
+    },
+    {
+      "period": "2015-10-22T11:29:21",
+      "record": "GPRS",
+      "recordDetail": "Data session",
+      "duration": 1300,
+      "unitOfDuration": "Kb",
+      "amount": -5.5,
+      "remainingAmount": 975
+    },
+    {
+      "period": "2015-10-23T11:29:21",
+      "record": "GPRS",
+      "recordDetail": "Data session",
+      "duration": 500,
+      "unitOfDuration": "Kb",
+      "amount": -1.5,
+      "remainingAmount": 975
+    },
+    {
+      "period": "2015-10-23T11:29:21",
+      "record": "GPRS",
+      "recordDetail": "Data session",
+      "duration": 1049576,
+      "unitOfDuration": "Kb",
+      "amount": -15.5,
+      "remainingAmount": 975
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/prepaid/history/reload/32478140422"
+    }
+  }
+}

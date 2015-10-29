@@ -1,0 +1,80 @@
+{
+  "currentCommercialOfferId" : "PP025",
+  "currentCommercialOfferName" : "P&G Smart",
+  "beginInactivityDate" : 1501970400000,
+  "lastUpdate" : 1444921003065,
+  "remainingCredit" : 5,
+  "bundles": [
+    {
+      "id": "VA70_SEC_b_PCK",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "sec",
+      "remainingValue": "180"
+    },
+    {
+      "id": "VA71_SEC_b_PCK",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "sec",
+      "remainingValue": "2300"
+    },
+    {
+      "id": "VA72_SMS_b_PCK",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "sms",
+      "remainingValue": "18"
+    },
+    {
+      "id": "VA73_KB_b_PCK",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "Kb",
+      "remainingValue": "35641"
+    },
+    {
+      "id": "VA61_SMS_b_LT",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "sms",
+      "remainingValue": "555"
+    },
+    {
+      "id": "VA61_SMS_b_LT",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "sms",
+      "remainingValue": "999"
+    },
+    {
+      "id": "VA61_SMS_b_LT",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "sms",
+      "remainingValue": "1000"
+    },
+    {
+      "id": "VA61_SMS_b_LT",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "sms",
+      "remainingValue": "10000"
+    },
+    {
+      "id": "prom_cred",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "euro",
+      "remainingValue": "2"
+    },
+    {
+      "id": "VA62_KB_b_LT",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "Kb",
+      "remainingValue": "51200"
+    },
+    {
+      "id": "VA60_SEC_b_LT",
+      "expirationDate": 2082668400000,
+      "unitOfRemainingValue": "min",
+      "remainingValue": "30"
+    }
+  ],
+  "_links" : {
+    "self" : {
+      "href": "http://localhost:8080/customer/612142356/usage/0032471141859"
+    }
+  }
+}

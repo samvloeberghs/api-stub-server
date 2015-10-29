@@ -1,0 +1,10 @@
+{
+  "name": "api-stub-server",
+  "version": "0.0.1",
+  "devDependencies": {
+    "node-red": "^0.11.2"
+  },
+  "scripts":{
+    "node-red": "node node_modules/node-red/red.js -v node-red-stubs/flows_myProximus.json -s settings.js"
+  }
+}

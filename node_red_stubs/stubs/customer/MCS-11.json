@@ -1,0 +1,35 @@
+{
+  "globalId": "12345",
+  "firstName": "MCS",
+  "lastName": "RES 11",
+  "preferredLanguage": "en",
+  "profiles": [
+    "GHBS_NOC",
+    "LANNL",
+    "PBIV1020",
+    "PECA0007",
+    "PEPC5001",
+    "PERM5001",
+    "PESD5001"
+  ],
+  "oneCDB": true,
+  "_embedded": {
+    "cm:mcs-default-customer": {
+      "customerId": 12345,
+      "subsegment": "11",
+      "payer": true,
+      "contactNumber": "04951256789",
+      "myBusinessComponent": false,
+      "_links": {
+        "self": {
+          "href": "http://localhost:8080/serviceProvider/mcs/customer/12345"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/user/12345"
+    }
+  }
+}

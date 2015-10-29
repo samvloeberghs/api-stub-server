@@ -1,0 +1,39 @@
+{
+  "groupId": 124,
+  "_embedded": {
+    "cm:customers": [
+      {
+        "customerId": 607232214,
+        "name": "G.C.V. Redevco Retail Belgium",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8086/serviceProvider/fls/customer/607232214"
+          }
+        }
+      },
+      {
+        "customerId": 12156344,
+        "name": "G.C.V. LOGIBEL - BELGISCHE LOG",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8086/serviceProvider/fls/customer/12156344"
+          }
+        }
+      },
+      {
+        "customerId": 605526794,
+        "name": "G.C.V. Redevco Retail Belgium",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8086/serviceProvider/fls/customer/605526794"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8086/customer-group-fls/124"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_links": {
+    "cm:user": {
+      "href": "/rest/customer-management/user"
+    },
+    "curies": {
+      "href": "/rest/generated-docs/api-guide.html#resources-{rel}"
+    },
+    "lp:loyaltyProgramSubscription": {
+      "href": "/rest/loyalty-management/customer/{customerId}/loyaltyprogramsubscription"
+    },
+    "rp:usage": {
+      "href": "/rest/usage/{msisdn}"
+    },
+    "rp:history": {
+      "href": "/rest/history/{msisdn}"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "groupId": 1,
+  "_embedded": {
+    "cm:customers": [
+      {
+        "customerId": 607232214,
+        "name": "G.C.V. Redevco Retail Belgium",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8086/serviceProvider/fls/customer/607232214"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8086/customer-group-fls/1"
+    }
+  }
+}
