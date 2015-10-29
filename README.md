@@ -28,6 +28,9 @@ in your postman setup. It is defined as a collection with the same name as this 
 
 ## Documentation
 
+This project uses the great NodeRED. So special thanks to the IBM guys working on it. You can find some more info
+about the tool using the following
+
 - NodeRED website: http://nodered.org/
 - Documentation: http://nodered.org/docs/
 - Github: https://github.com/node-red/node-red
@@ -35,3 +38,5 @@ in your postman setup. It is defined as a collection with the same name as this 
 ## Contributors
 
 Sam Vloeberghs - [@samvloeberghs](https://twitter.com/samvloeberghs) - [sam.vloeberghs@gmail.com](mailto:sam.vloeberghs@gmail.com)
+
+## Courtesy & acknowledgment
