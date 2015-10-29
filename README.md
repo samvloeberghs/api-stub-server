@@ -8,7 +8,7 @@ This code has the purpose to run a stub server for any API.
 You should have node, npm & git installed. You can check this in cli:
 
 ```
-npm -v && node -v && git -v
+node -v && npm -v && git --version
 ```
 
 ## Running the stub server
