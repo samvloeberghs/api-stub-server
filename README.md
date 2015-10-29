@@ -18,6 +18,9 @@ node -v && npm -v && git --version
 3. Run the server: `npm run node-red`
 4. Open up the graphical interface: [http://localhost:1880](http://localhost:1880)
 
+**Username**: nodered  
+**Password**: password
+
 ## Accessing endpoints
 
 ## Documentation
