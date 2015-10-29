@@ -23,6 +23,9 @@ node -v && npm -v && git --version
 
 ## Accessing endpoints
 
+You can use the examples provided as a Postman export. Just import the `api-stub-server.postman_collection.json` file
+in your postman setup. It is defined as a collection with the same name as this project.
+
 ## Documentation
 
 - NodeRED website: http://nodered.org/

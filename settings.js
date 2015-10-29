@@ -25,7 +25,7 @@ module.exports = {
     //socketTimeout: 120000,
 
     // The maximum length, in characters, of any message sent to the debug sidebar tab
-    debugMaxLength: 1000,
+    debugMaxLength: 500000,
 
     // The file containing the flows. If not set, it defaults to flows_<hostname>.json
     flowFile: 'node_red_stubs/flows.json',
@@ -157,4 +157,4 @@ module.exports = {
             metrics: false
         }
     }
-}
+};
