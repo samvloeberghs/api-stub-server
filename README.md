@@ -48,11 +48,11 @@ npm run api
 ### Creating different endpoints
 
 This example shows how to create several endpoints. Load it by going to tab "endpoints" in the canvas. It might be 
-useful to check the impact of a slow API on your application. In the canvas you can see the function that slows 
-down the request.
+useful to check the impact of a slow API on your application. In the canvas you can see the function `Random delay 1-3s` 
+that slows down the request.
 
-You can implement the various HTTP methods. The examples provided won't do actual writing in any DB. It just shows
-the possibilities.
+You can implement the various HTTP methods POST, GET, PUT & DELETE The examples provided won't do actual writing in 
+any DB. It just shows the possibilities.
 
 ### Enable debug logging (1)
 
@@ -92,7 +92,7 @@ authenticated user by injecting it. When you do a call the `search/result` endpo
 This example is quite similar to the previous one. Instead of using a switch in NodeRed we control it via the Headers in
 the request. Agian, you can use the /search/result endpoint for this example.
 
-Try now to disable or enable the X-Token header in the `search/result` endpoint and issue the request.
+Try now to disable or enable the X-Application-Token header in the `search/result` endpoint and issue the request.
 
 ## Contributors
 
