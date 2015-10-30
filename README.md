@@ -1,7 +1,6 @@
 # API stub server
 
-This code has the purpose to run a stub server for any API.
-
+This code has the purpose to be an example project to setup a stub server for any API.
 
 ## Pre requisites
 
@@ -52,13 +51,14 @@ useful to check the impact of a slow API on your application. In the canvas you 
 that slows down the request.
 
 You can implement the various HTTP methods POST, GET, PUT & DELETE The examples provided won't do actual writing in 
-any DB. It just shows the possibilities.
+any DB. It just shows the possibilities. Check it out by using the `News overview`, `News detail GET`, 
+`News detail PUT` & `News overview POST` examples in the Postman export.
 
 ### Enable debug logging (1)
 
 This example shows how to have a in NodeRED to disable or enable debug loggin on runtime. Load it by going to tab 
 "debug logging" in the canvas. In the canvas you will have an injector to enable or disable. Try playing around with 
-the toggle. You can do this by starting the `news` or `newsdetail` request in the postman example.
+the toggle. You can do this by starting the `FAQ overview` request in the postman example.
 
 This is just an example on how to enable debugging based on the request. You can basically output anything that is 
 related to the request or response in your debug function.
@@ -85,7 +85,6 @@ versus a guest user.
 
 Enable the guest user by clicking in front of the inject node with the name "Guest User". Try the same for the 
 authenticated user by injecting it. When you do a call the `search/result` endpoint you will see that it differs.
-
 
 ### Differentiating the responses from an endpoint (2)
 
