@@ -77,9 +77,10 @@ authenticated user by injecting it. When you do a call the `search/result` endpo
 ### Differentiating the responses from an endpoint (2)
 
 This example is quite similar to the previous one. Instead of using a switch in NodeRed we control it via the Headers in
-the request. Agian, you can use the /search/result endpoint for this example.
+the request. Again, you can use the /search/result endpoint for this example.
 
-Try now to disable or enable the X-Application-Token header in the `search/result` endpoint and issue the request.
+Try now to disable or enable the X-Application-User-Type header in the `search/result` endpoint and issue the request.
+Possible values are 'bizz' or 'res'. If another provided it will default to 'res'.
 
 ## Contributors
 
