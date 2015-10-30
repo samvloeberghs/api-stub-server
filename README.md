@@ -2,7 +2,7 @@
 
 This code has the purpose to be an example project to setup a stub server for any API.
 
-## Pre requisites
+## Prerequisites
 
 You should have node, npm & git installed. You can check this in cli:
 
