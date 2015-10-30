@@ -34,7 +34,9 @@ about the tool using the following
 To quickly setup this project and checkout the examples I suggest you to install Postman.
 
 You can use the examples provided as a Postman export. Just import the `api-stub-server.postman_collection.json` file
-in your postman setup. It is defined as a collection with the same name as this project. 
+in your postman setup.
+
+It is defined as a collection with the same name as this project.
 
 ## Examples
 
@@ -54,28 +56,14 @@ You can implement the various HTTP methods POST, GET, PUT & DELETE The examples 
 any DB. It just shows the possibilities. Check it out by using the `News overview`, `News detail GET`, 
 `News detail PUT` & `News overview POST` examples in the Postman export.
 
-### Enable debug logging (1)
+### Enable debug logging
 
-This example shows how to have a in NodeRED to disable or enable debug loggin on runtime. Load it by going to tab 
+This example shows how to have a toggle in NodeRED to disable or enable debug loggin on runtime. Load it by going to tab
 "debug logging" in the canvas. In the canvas you will have an injector to enable or disable. Try playing around with 
 the toggle. You can do this by starting the `FAQ overview` request in the postman example.
 
 This is just an example on how to enable debugging based on the request. You can basically output anything that is 
 related to the request or response in your debug function.
-
-### Enable debug logging (2)
-
-This example is quite similar to the previous one. Instead of using a switch in NodeRed to enable or disable the logging
-of debug information, we set in via an argument. 
-
-Stop your server and run the api by setting the --debug option.
-
-```
-npm run api --debug
-```
-
-Now you don't need the toggle to enable or disable the debugging. Debugging is set by default.
-
 
 ### Differentiating the responses from an endpoint (1)
 
@@ -96,5 +84,3 @@ Try now to disable or enable the X-Application-Token header in the `search/resul
 ## Contributors
 
 Sam Vloeberghs - [@samvloeberghs](https://twitter.com/samvloeberghs) - [sam.vloeberghs@gmail.com](mailto:sam.vloeberghs@gmail.com)
-
-## Courtesy & acknowledgment
